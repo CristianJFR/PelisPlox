@@ -1,0 +1,159 @@
+.Home{
+    background-color:#fff ;
+}
+
+.navbar-default {
+    background-color: #ff4500;
+
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+    background-color: transparent;
+}
+
+#main{
+    margin-top: 150px;
+}
+
+#form-input{
+    margin: 5px 0 10px 0;
+}
+
+.main-form{
+    display: flex;
+    width: 110vh;
+    margin: 0 auto;
+}
+
+.login-component{
+    width: 47%;
+    text-align: center;
+    height: 400px;
+    padding-top: 100px;
+}
+
+#login-form{
+    background-color:white;
+    border-radius: 10px 0px 0px 10px;
+    height: 65vh;
+}
+#register-form{
+    background-color:rgb(245, 66, 11);
+    border-radius: 0px 10px 10px 0px;
+    height: 65vh;
+}
+
+#login-form h1{
+    color: #11181f;
+}
+#login-form input{
+    width: 70%;
+    height: 5vh;
+    background-color: rgb(226, 221, 221);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#login-form button{
+    width: 40%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #11181f;
+    border-radius: 15px;
+    color: white;
+}
+
+#register-form{
+   color: white;
+}
+#register-form p{
+    padding: 10px 0 10px 0;
+    font-size: 1.7rem;
+ }
+ #register-form a{
+    display: block;
+    width: 50%;
+    
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    padding: 5px ;
+    border: 1px solid white;
+    border-radius: 15px;
+ }
+
+ .footer .Container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.footer {
+    background-color: #24262b;   
+    padding: 70px 0;
+    line-height: 1.5;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 10;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col .Social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .Social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
